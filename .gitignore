@@ -3,3 +3,7 @@ settings.ini
 
 # environments stuff
 .venv/
+
+# editor stuff
+.vscode/
+__pycache__
