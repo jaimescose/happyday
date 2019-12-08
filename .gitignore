@@ -7,4 +7,3 @@ settings.ini
 # editor and cache stuff
 .vscode/*
 __pycache__/*
-__pycache__/settings.cpython-36.pyc

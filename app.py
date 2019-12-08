@@ -1,6 +1,7 @@
 import settings
 
-from flask import Flask
+from flask import Flask, redirect
+
 app = Flask(__name__)
 PORT = 8000
 DEBUG = True
@@ -11,7 +12,7 @@ def not_found(error):
 
 @app.route('/', methods=['GET'])
 def get_index():
-    pass
+    return redirect('https://twitter.com/hppydyty')
 
 if __name__ == '__main__':
     app.run(port=PORT, debug=DEBUG)
