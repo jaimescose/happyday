@@ -5,7 +5,7 @@ config.read('settings.ini')
 
 twitter =  {
     'APIKey': config.get('twitter', 'APIKey'),
-    'APISecretKey': config.get('twitter', 'APISecretKey'),
+    'APIKeySecret': config.get('twitter', 'APIKeySecret'),
     'AccessToken': config.get('twitter', 'AccessToken'),
     'AccessTokenSecret': config.get('twitter', 'AccessTokenSecret'),
 }
