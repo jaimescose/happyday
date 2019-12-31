@@ -1,5 +1,3 @@
-import settings
-
 from flask import Flask, redirect
 
 # flask config
