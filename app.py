@@ -18,7 +18,7 @@ def not_found(error):
 def get_index():
     return redirect(profile_url)
 
-@app.route('/webhook/twitter', methods=['POST'])
+@app.route('/webhook/twitter/', methods=['POST'])
 def manage_twitter_activity():
     return None
 
