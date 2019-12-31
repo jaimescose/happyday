@@ -3,6 +3,7 @@ settings.ini
 
 # environments stuff
 .venv/
+.env
 
 # editor and cache stuff
 .vscode/*
